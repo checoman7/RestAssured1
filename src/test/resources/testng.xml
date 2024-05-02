@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Api Suite" verbose="1">
+    <test name="Testing Api">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="API.FirstAPI" />
+
+            <!-- Add more Testing classes -->
+        </classes>
+    </test>
+</suite>
